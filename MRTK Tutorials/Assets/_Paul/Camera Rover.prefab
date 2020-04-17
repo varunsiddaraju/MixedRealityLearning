@@ -11,8 +11,9 @@ GameObject:
   - component: {fileID: 2872687501888392483}
   - component: {fileID: 7968272078449763262}
   - component: {fileID: 2692024870639804502}
+  - component: {fileID: 261238748268763227}
   m_Layer: 0
-  m_Name: node_id39.001
+  m_Name: camera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26,7 +27,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5378975813047688850}
   m_LocalRotation: {x: -7.1054274e-15, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.56266046, y: 1.2552942, z: 0.7084697}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 7308935825111071380}
@@ -78,6 +79,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &261238748268763227
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5378975813047688850}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.5499997, y: 1.0644407, z: 0.34861103}
+  m_Center: {x: -0.04804389, y: 0.42297912, z: 0.031828746}
 --- !u!1 &8865577134229789154
 GameObject:
   m_ObjectHideFlags: 0

@@ -11,8 +11,9 @@ GameObject:
   - component: {fileID: 3311976811357898236}
   - component: {fileID: 32328162385484363}
   - component: {fileID: 6774951610071025140}
+  - component: {fileID: 224855283018141362}
   m_Layer: 0
-  m_Name: node_id33.001
+  m_Name: spectrometer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26,7 +27,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2190853670538423515}
   m_LocalRotation: {x: -7.1054274e-15, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.3953053, y: 0.8335371, z: 2.1146066}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 8945505405406832585}
@@ -81,6 +82,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &224855283018141362
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2190853670538423515}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.64109814, y: 1.3090705, z: 0.5765512}
+  m_Center: {x: -0.052574262, y: 0.5446791, z: -0.11990219}
 --- !u!1 &5646724692993904412
 GameObject:
   m_ObjectHideFlags: 0
